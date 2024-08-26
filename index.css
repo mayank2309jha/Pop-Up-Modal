@@ -1,0 +1,33 @@
+.modal{
+  opacity: 0;
+  pointer-events: none;
+}
+button{
+  background-color: rgb(128, 128, 128,0.2);
+  padding: 2px 4px 2px 4px;
+  border-radius:4px;
+}
+#close-icon{
+  margin-top: -5px;
+  cursor: pointer;
+}
+.social-media-icons{
+  font-size: 25px;
+  padding: 13px;
+  border-radius: 50%;
+  border: rgb(56, 189, 248, 0.5) 1px solid;
+}
+.link{
+  border: rgb(168, 162, 158, 0.5) solid 1px;
+  border-radius: 5px;
+}
+input{
+  border: none;
+}
+input:focus{
+  outline: none;
+}
+.view-modal{
+  position: absolute;
+  top: 50%;
+}

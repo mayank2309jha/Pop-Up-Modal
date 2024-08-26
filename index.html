@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/0f2c3aae58.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css" />
+  <title>Pop Up Modal</title>
+</head>
+
+<body>
+  <div class="h-screen w-screen bg-blue-500 justify-center flex flex-col items-center">
+    <div class="h-auto w-auto p-4 rounded-lg bg-black text-white cursor-pointer view-modal">View Modal</div>
+    <div class="modal text-black p-10 my-10 rounded-2xl bg-white items-center">
+      <div class="header flex place-content-between">
+        <p class="font-bold text-lg">Share Modal</p>
+        <i id="close-icon"
+          class="fa-solid fa-x bg-rose-100 h-10 w-10 flex justify-center items-center rounded-full mb-5"></i>
+      </div>
+      <hr>
+      <p class="my-2">Share this link via</p>
+      <div class="place-content-evenly	gap-1 flex"> <i
+          class="fa-brands fa-facebook text-blue-500 social-media-icons"></i>
+        <i class="fa-brands fa-twitter text-sky-400  social-media-icons"></i>
+        <i class="fa-brands fa-instagram text-rose-600 social-media-icons"></i>
+        <i class="fa-brands fa-whatsapp text-green-500 social-media-icons"></i>
+        <i class="fa-brands fa-telegram text-sky-400 social-media-icons"></i>
+      </div>
+      <br />
+      <div class="link py-2 px-1"> <i class="fa-solid fa-link"></i>
+        <input type="text" placeholder="example.com/share-link" />
+        <button class="bg-purple-600 text-white px-4 py-1">Copy</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
